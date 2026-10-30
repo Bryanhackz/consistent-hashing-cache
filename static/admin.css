@@ -1,0 +1,11 @@
+/* © 2026 Bryan Gil — github.com/Bryanhackz — br4yangil006@gmail.com */
+:root {
+    --bg: #0f1115; --fg: #e7e9ee; --muted: #9aa3b2; --border: #262b36;
+  }
+  body { margin: 0; padding: 2rem; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: .5rem; }
+  p { color: var(--muted); margin-bottom: 2rem; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: .75rem; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
